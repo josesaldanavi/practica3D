@@ -2361,6 +2361,7 @@ GameObject:
   - component: {fileID: 1665507120}
   - component: {fileID: 1665507119}
   - component: {fileID: 1665507123}
+  - component: {fileID: 1665507124}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2490,6 +2491,28 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   restartPanel: {fileID: 352902248}
   restartSpeed: 3.5
+--- !u!114 &1665507124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1665507118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a9b71f2b6a04f379420b7fe78726aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inactive:
+  - action: obtain
+    type: Fireball
+    currentAmmount: 0
+    targetAmmount: 1
+  - action: destroy
+    type: BasicEnemy
+    currentAmmount: 0
+    targetAmmount: 0
+  active: []
+  completed: []
 --- !u!1 &1724229355 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 1866929883802526, guid: 549c75492f4ec41d298546f2b37b26b5,
